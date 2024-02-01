@@ -304,12 +304,15 @@ div>#titulo-header {
 }
 
 .header_area > .main_menu > .navbar {
+  margin-right: 50px;
+}
+
+.header_area .navbar {
   background: transparent;
   padding: 0px;
   border: 0px;
   border-radius: 0px;
   width: 100%;
-  margin-right: 50px;
 }
 
 

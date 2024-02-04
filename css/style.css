@@ -246,6 +246,11 @@ button:focus {
   box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
 }
 
+.border-bottom-1 {
+  border-bottom: 2px solid #007bff !important;
+}
+
+
 .primary_btn span {
   padding: 0 42px;
 }

@@ -499,7 +499,7 @@ div>#titulo-header {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  margin-top: 20px;
+  padding-top: 120px;
   z-index: 1;
   /*background: url(../img/banner/home-banner.png) no-repeat top center;*/
   background-position: center;
@@ -511,7 +511,8 @@ div>#titulo-header {
 }
 
 .home_banner_area .banner_inner .home_right_img {
-  padding-top: 197px;
+  width: 100%;
+  padding-top: 0px;
 }
 
 .home_banner_area .banner_inner .col-lg-7 {
@@ -656,8 +657,8 @@ div>#titulo-header {
     font-size: 30px;
   }
 
-  .home_banner_area .banner_inner .banner_content {
-    margin-top: 150px;
+  .home_banner_area .banner_inner .banner_content h3:after {
+    width: 0px;
   }
 }
 
@@ -665,11 +666,6 @@ div>#titulo-header {
   .home_banner_area .banner_inner .banner_content h3:after {
     width: 0px;
     height: 0px;
-  }
-
-  .home_banner_area .banner_inner .home_right_img {
-    width: 100%;
-    padding-top: 0px;
   }
 }
 

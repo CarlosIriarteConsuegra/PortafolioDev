@@ -616,6 +616,10 @@ div>#titulo-header {
 }
 
 @media (max-width: 1480px) {
+  .home_banner_area {
+    padding-top: 110px;
+  }
+
   .home_banner_area .banner_inner .home_right_img img {
     max-width: 100%;
     height: auto;
@@ -623,6 +627,10 @@ div>#titulo-header {
 }
 
 @media (max-width: 1199px) {
+  .home_banner_area {
+    padding-top: 20px;
+  }
+
   .banner_area {
     min-height: 350px;
   }
@@ -639,6 +647,10 @@ div>#titulo-header {
 }
 
 @media (max-width: 991px) {
+  .home_banner_area {
+    padding-top: 10px;
+  }
+
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 60px;
   }

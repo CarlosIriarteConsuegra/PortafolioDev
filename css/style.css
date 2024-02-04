@@ -3302,6 +3302,8 @@ h6 {
 ============================================================================================ */
 .about_area {
   position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .about_area .main_title {
@@ -4423,6 +4425,37 @@ margin-top: 5px;
   }
 }
 
+@media (max-width: 460px) {
+  .home_banner_area {
+    min-height: 200px;
+  }
+
+  .home_banner_area .banner_inner {
+    min-height: 200px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
+  .home_banner_area .banner_inner .container .row div{
+    padding: 0px 5px;
+  }
+
+  .home_banner_area .banner_inner .banner_content h3 {
+    margin: 0px;
+  }
+
+  .home_banner_area .banner_inner .banner_content h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  .home_banner_area .banner_inner .banner_content h5 {
+    margin: 0px;
+  }
+
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
   /* Start Brand Carousel Area css
@@ -4545,5 +4578,7 @@ margin-top: 5px;
 #skill .tab-content hr {
   width: 30px;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
